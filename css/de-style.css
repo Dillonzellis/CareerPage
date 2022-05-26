@@ -63,7 +63,7 @@ body {
 .values-container {
   /* width: 80%; */
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .values-row {
@@ -76,13 +76,21 @@ body {
 }
 
 .value-text-container {
-  background-color: #2a5a72;
-  color: #fff;
-  /* width: 395px; */
+  /* background-color: #2a5a72; */
+  /* color: #fff; */
+
+  border: 2px solid #2a5a72;
+
   min-height: 136px;
   padding-right: 19px;
   padding-left: 19px;
   margin-bottom: 32px;
+}
+
+.value-text-container:hover {
+  background-color: #2a5a72;
+  color: #fff;
+  transition: all ease 0.3s;
 }
 
 .right-text {
@@ -120,43 +128,40 @@ body {
 }
 
 .svg-container {
-  border: solid 5px #b0d460;
+  border: solid 2px #b0d460;
   width: 100%;
   /* height: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
   height: 136px;
-  
 }
 
-svg{
-  height: 100px;
-  width: 100px;
+svg {
+  height: 60px;
+  width: 60px;
 }
-
 
 /* life at LSCU */
 
-.life-section{
+.life-section {
   position: relative;
 }
 
-.green-bg{
-  background-color: #B0D460;
+.green-bg {
+  background-color: #b0d460;
   width: 100%;
   min-height: 733px;
   position: absolute;
   top: 250px;
 }
 
-.life-section-header{
+.life-section-header {
   padding: 0;
-
 }
 
-.life-header{
-  background-color: #2A5A72;
+.life-header {
+  background-color: #2a5a72;
   color: #fff;
   /* text-align: center; */
   min-height: 67px;
@@ -165,91 +170,84 @@ svg{
   align-items: center;
   margin-bottom: 60px;
   /* z-index: 9; */
-
-
 }
 
-.header-hr{
+.header-hr {
   width: 43%;
   opacity: 1;
- 
 }
 
-.hr-right{
+.hr-right {
   margin-right: auto;
 }
 
-.life-h2{
+.life-h2 {
   font-size: 35px;
   font-weight: 700;
 }
 
-
-
-
 /* cards */
 
-.card-container{
+.card-container {
   margin-bottom: 35px;
 }
 
-.card-row{
+.card-row {
   margin-bottom: 110px;
 }
 
-.card{
+.card {
   /* margin: 1rem; */
-  border: 1px solid #BCBEC0;
+  border: 1px solid #bcbec0;
 }
 
-.card-image{
+.card-image {
   height: 233.42px;
   /* width: 445px; */
   /* width: 100%; */
 }
 
-.grey-box{
+.grey-box {
   background-color: rgb(175, 175, 175);
-height: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card-text-wrapper{
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 30px;
-padding-top: 26px;
+.card-text-wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-top: 26px;
 }
 
-.card-text-header{
+.card-text-header {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 13px;
-
 }
 
-.card-text-body{
+.card-text-body {
   font-size: 15px;
 }
 
-.sm-blue-banner{
-  background-color: #2A5A72;
+.sm-blue-banner {
+  background-color: #2a5a72;
   width: 100%;
-  min-height: 35px;
+  min-height: 15px;
 }
 
-.sm-green-banner{
-  background-color: #B0D460;
+.sm-green-banner {
+  background-color: #b0d460;
   width: 100%;
   min-height: 35px;
 }
 
 /* testimonial section */
 
-.testimonial-header{
-  background-color: #B0D460;
+.testimonial-header {
+  background-color: #2a5a72;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -258,27 +256,27 @@ padding-top: 26px;
   padding: 0;
   font-family: "Raleway";
 
-  margin-bottom: 127px;
+  margin-bottom: 45px;
 }
 
-.test-header-hr{
+.test-header-hr {
   width: 38%;
   opacity: 1;
 }
 
-.test-h2{
+.test-h2 {
   font-weight: 700;
   font-size: 35px;
 }
 
 /* card flip */
 
-.test-card-container{
- display: flex;
- justify-content: center;
- align-items: center;
+.test-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
- margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .flip-card {
@@ -317,7 +315,7 @@ padding-top: 26px;
 }
 
 .flip-card-back {
-  background-color: #2A5A72;
+  background-color: #2a5a72;
   color: white;
   transform: rotateY(180deg);
 }
