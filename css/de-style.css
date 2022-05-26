@@ -205,17 +205,28 @@ svg{
 .card-image{
   height: 233.42px;
   /* width: 445px; */
+  /* width: 100%; */
+}
+
+.grey-box{
+  background-color: rgb(175, 175, 175);
+height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-text-wrapper{
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 40px;
+padding-right: 40px;
 padding-bottom: 30px;
+padding-top: 26px;
 }
 
 .card-text-header{
   font-weight: 700;
   font-size: 20px;
+  margin-bottom: 13px;
 
 }
 
@@ -225,6 +236,12 @@ padding-bottom: 30px;
 
 .sm-blue-banner{
   background-color: #2A5A72;
+  width: 100%;
+  min-height: 35px;
+}
+
+.sm-green-banner{
+  background-color: #B0D460;
   width: 100%;
   min-height: 35px;
 }
@@ -245,7 +262,7 @@ padding-bottom: 30px;
 }
 
 .test-header-hr{
-  width: 39%;
+  width: 38%;
   opacity: 1;
 }
 
@@ -300,7 +317,7 @@ padding-bottom: 30px;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #2A5A72;
   color: white;
   transform: rotateY(180deg);
 }
