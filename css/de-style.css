@@ -1,11 +1,5 @@
 /* start DE Styles */
 
-/* previous boostrap fix */
-/* .visible-xs .menu-icon{
-  display: none;
-} */
-
-
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -126,7 +120,19 @@ body {
 }
 
 .svg-container {
-  border: solid 3px #b0d460;
+  border: solid 5px #b0d460;
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+  
+}
+
+svg{
+  height: 100px;
+  width: 100px;
 }
 
 
@@ -204,6 +210,7 @@ body {
 .card-text-wrapper{
 padding-left: 50px;
 padding-right: 50px;
+padding-bottom: 30px;
 }
 
 .card-text-header{
@@ -227,16 +234,18 @@ padding-right: 50px;
 .testimonial-header{
   background-color: #B0D460;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #fff;
   min-height: 67px;
+  padding: 0;
+  font-family: "Raleway";
 
   margin-bottom: 127px;
 }
 
 .test-header-hr{
-  width: 35%;
+  width: 39%;
   opacity: 1;
 }
 
@@ -252,7 +261,7 @@ padding-right: 50px;
  justify-content: center;
  align-items: center;
 
- margin-bottom: 200px;
+ margin-bottom: 12px;
 }
 
 .flip-card {
