@@ -7,10 +7,11 @@ body {
 /* hero */
 .hero-wrapper {
   /* min-width: 100%; */
-	background-image: url("../about/imgs/inner-headerBG.jpg");
+  /* background-image: url("../about/imgs/inner-headerBG.jpg"); */
+  background-image: url("../imgs/inner-headerBG.jpg");
   background-size: cover;
   /* background-position: center top; */
-  height: 365px;
+  min-height: 470px;
 
   /* display: flex;
     justify-content: center;
@@ -56,7 +57,7 @@ body {
   border-radius: 21.4286px;
   color: #fff;
   font-weight: 700;
-   padding: 12px; 
+  padding: 12px;
 }
 
 /* values */
@@ -79,7 +80,7 @@ body {
   /* background-color: #2a5a72; */
   /* color: #fff; */
 
-/*  border: 2px solid #2a5a72;*/
+  /*  border: 2px solid #2a5a72;*/
 
   min-height: 136px;
   padding-right: 19px;
@@ -202,9 +203,13 @@ svg {
 }
 
 .card-image {
-  height: 233.42px;
+  /* height: 233.42px; */
   /* width: 445px; */
   /* width: 100%; */
+  /* background-image: url("https://via.placeholder.com/500");
+  background-size: cover; */
+  /* width: 100%;
+  height: auto; */
 }
 
 .grey-box {
@@ -322,40 +327,35 @@ svg {
 
 /*bootstrap fixes*/
 
-.navbar-nav{
-	flex-direction: row
+.navbar-nav {
+  flex-direction: row;
 }
 
-.hero-text{
-	color:#fff;
-	font-family: Montserrat, sans-serif;
-	font-size: 42px
+.hero-text {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 42px;
 }
 
-.value-text-container:hover .value-header{
-	color:#fff !important;
+.value-text-container:hover .value-header {
+  color: #fff !important;
 }
 
-
-
-.life-h2{
-	margin-bottom: 0;
-	font-family: Montserrat, sans-serif;
-	color: #fff;
+.life-h2 {
+  margin-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
 }
 
-.test-h2{
-	color: #fff;
-	margin-bottom: 0;
+.test-h2 {
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .flip-card-back > h1 {
-	color: #fff;
+  color: #fff;
 }
 
-.hr-left{
-	margin-left: 0;
+.hr-left {
+  margin-left: 0;
 }
-
-
-
