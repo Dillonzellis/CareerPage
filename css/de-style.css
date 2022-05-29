@@ -10,8 +10,10 @@ body {
   /* background-image: url("../about/imgs/inner-headerBG.jpg"); */
   background-image: url("../imgs/inner-headerBG.jpg");
   background-size: cover;
+  background-color: #00000042;
+  background-blend-mode: overlay;
   /* background-position: center top; */
-  min-height: 470px;
+  min-height: 500px;
 
   /* display: flex;
     justify-content: center;
@@ -34,10 +36,17 @@ body {
   font-weight: 700;
 }
 
+.hero-sub-text {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 50%;
+}
+
 .hero-hr {
   width: 65%;
   border: none;
-  height: 4px !important;
+  height: 2px !important;
   background-color: #fff;
   margin-top: 0;
   opacity: 1;
@@ -48,7 +57,7 @@ body {
   justify-content: center;
   /* align-items: center; */
 
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .de-btn {
@@ -58,6 +67,50 @@ body {
   color: #fff;
   font-weight: 700;
   padding: 12px;
+}
+
+/* starter */
+.join-container {
+  position: relative;
+}
+
+.green-square {
+  height: 450px;
+  width: 450px;
+  /* max-width: 100%;
+  height: auto; */
+  /* width: 100%; */
+  border: 2px solid #b0d460;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+}
+
+.starter-img {
+  z-index: 99;
+  position: relative;
+}
+
+.starter-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.join-h2 {
+  font-weight: 700;
+  color: #2a5a72;
+}
+
+.subjoin {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #b0d460;
+  font-weight: 700;
+}
+
+.join-container .de-btn {
+  border: 2px solid #b0d460;
 }
 
 /* values */
