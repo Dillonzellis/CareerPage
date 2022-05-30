@@ -1,3 +1,6 @@
 responsive
 hover animations(btns)
 css animations
+
+page seperators 150px instead of 67?
+values header text dark blue instead of black
