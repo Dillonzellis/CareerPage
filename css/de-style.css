@@ -4,25 +4,25 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-p{
-	font-size: 16px
+p {
+  font-size: 16px;
 }
 
-button{
-	font-size: 16px
+button {
+  font-size: 16px;
 }
 
 /* hero */
 .hero-wrapper {
   /* min-width: 100%; */
-   background-image: url("../about/imgs/inner-headerBG.jpg"); 
-/*  background-image: url("../imgs/inner-headerBG.jpg");*/
+  background-image: url("../about/imgs/inner-headerBG.jpg");
+  /*  background-image: url("../imgs/inner-headerBG.jpg");*/
   background-size: cover;
   background-color: #00000042;
   background-blend-mode: overlay;
   /* background-position: center top; */
   min-height: 500px;
-
+  margin-bottom: 5rem;
 }
 
 .hero-text-wrapper {
@@ -45,8 +45,9 @@ button{
   font-weight: 700;
   text-align: center;
   width: 50%;
-	color: #fff;
-	
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  line-height: unset;
 }
 
 .hero-hr {
@@ -74,7 +75,8 @@ button{
   font-weight: 700;
   padding: 12px;
   text-decoration: none;
-	font-size: 16px
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
 }
 
 /* starter */
@@ -82,16 +84,16 @@ button{
   position: relative;
 }
 
-.starter-wrapper{
+.starter-wrapper {
   position: relative;
 }
 
-.starter-photo-wrapper{
+.starter-photo-wrapper {
   padding: 0 30px 0 30px;
 }
 
 .starter-img {
-  background-image:url('https://media.istockphoto.com/photos/young-businesswoman-in-a-modern-office-picture-id1291622774?s=612x612');
+  background-image: url("https://media.istockphoto.com/photos/young-businesswoman-in-a-modern-office-picture-id1291622774?s=612x612");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -120,15 +122,13 @@ height: calc(100% - 50px);
   right: 0;
   z-index: 1; */
   border: 3px solid #b0d460;
-    z-index: 1;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    width: calc(100% - 55px);
-    height: calc(100% - 50px);
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: calc(100% - 55px);
+  height: calc(100% - 50px);
 }
-
-
 
 .blue-rect {
   background-color: #2a5a72;
@@ -136,11 +136,8 @@ height: calc(100% - 50px);
   position: absolute;
   width: 100%;
   left: 0;
-	top: 22%;
-
+  top: 22%;
 }
-
-
 
 .starter-right-col {
   display: flex;
@@ -246,6 +243,7 @@ height: calc(100% - 50px);
 .right-text {
   text-align: right;
 }
+
 .left-text {
   text-align: left;
 }
@@ -419,7 +417,7 @@ svg {
   opacity: 1;
 }
 
-@media(min-width:1880px){
+@media (min-width: 1880px) {
   .test-header-hr {
     width: 38%;
   }
@@ -483,13 +481,11 @@ svg {
 
 /*bootstrap fixes*/
 
-@media(min-width:1000px){
-	.navbar-nav {
-  flex-direction: row;
+@media (min-width: 1000px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
 }
-}
-
-
 
 .hero-text {
   color: #fff;
@@ -519,7 +515,6 @@ svg {
 .hr-left {
   margin-left: 0;
 }
-
 
 /*
 #menu > ul > li > a {
@@ -552,21 +547,21 @@ body > section > div > div > div > span {
 */
 
 .hero-btn > a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-.value-item-wrapper{
-	display: none;
+.value-item-wrapper {
+  display: none;
 }
 
-@media(min-width:768px){
-	.value-item-wrapper{
-		display: block;
-	}
+@media (min-width: 768px) {
+  .value-item-wrapper {
+    display: block;
+  }
 }
 
-.img-fluid{
-	width: 100%;
-	height: auto;
+.img-fluid {
+  width: 100%;
+  height: auto;
 }
