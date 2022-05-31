@@ -81,17 +81,53 @@ button{
   position: relative;
 }
 
-.green-square {
-  height: 450px;
-  width: 450px;
-  /* max-width: 100%;
-  height: auto; */
-  /* width: 100%; */
-  border: 2px solid #b0d460;
-  position: absolute;
-  left: 47px;
-  top: 53px;
+.starter-wrapper{
+  position: relative;
 }
+
+.starter-photo-wrapper{
+  padding: 0 30px 0 30px;
+}
+
+.starter-img {
+  background-image:url('https://media.istockphoto.com/photos/young-businesswoman-in-a-modern-office-picture-id1291622774?s=612x612');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  padding: 0 30px 30px 0;
+  z-index: 2;
+  position: relative;
+
+  background-origin: content-box;
+}
+
+.green-square {
+  /* height: 450px;
+  width: 450px; */
+
+  /* width: calc(100% - 55px);
+height: calc(100% - 50px);
+  border: 2px solid #b0d460;
+  position: absolute; */
+  /* left: 47px;
+  top: 53px; */
+
+  /* top: 50px;
+  right: 0;
+  z-index: 1; */
+  border: 3px solid #b0d460;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: calc(100% - 55px);
+    height: calc(100% - 50px);
+}
+
+
 
 .blue-rect {
   background-color: #2a5a72;
@@ -101,10 +137,7 @@ button{
   left: 0;
 }
 
-.starter-img {
-  z-index: 99;
-  position: relative;
-}
+
 
 .starter-right-col {
   display: flex;

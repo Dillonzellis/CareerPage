@@ -25,9 +25,9 @@
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
    <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 
-   <!--[if lt IE 9]>
-<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+      <!--[if lt IE 9]>
+   <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
 
    <!-- stylesheets -->
    <link rel="stylesheet" media="screen" href="../js/bootstrap/bootstrap.min.css" type="text/css" />
@@ -788,10 +788,8 @@
                      </div>
                   </div>
                </div>
-
             </div>
          </div>
-
       </section>
 
 
