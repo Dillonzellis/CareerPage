@@ -46,6 +46,7 @@ button{
   text-align: center;
   width: 50%;
 	color: #fff;
+	
 }
 
 .hero-hr {
@@ -482,9 +483,13 @@ svg {
 
 /*bootstrap fixes*/
 
-.navbar-nav {
+@media(min-width:1000px){
+	.navbar-nav {
   flex-direction: row;
 }
+}
+
+
 
 .hero-text {
   color: #fff;
@@ -516,27 +521,52 @@ svg {
 }
 
 
+/*
 #menu > ul > li > a {
 		font-size: 14px;
 }
+*/
 
+/*
 .lineright > a{
 	text-decoration: none;
 }
+*/
 
+/*
 body > div.site_wrapper > div.topbar.light.topbar-padding > div > div.topbar-left-items > ul > li:nth-child(5) > a {
 	text-decoration: none;
 }
+*/
 
+/*
 .search-parent > a {
 	font-size: 14px;
 }
+*/
 
+/*
 body > section > div > div > div > span {
 	font-size: 14px;
 }
+*/
 
 .hero-btn > a {
 	color: #fff;
 	text-decoration: none;
+}
+
+.value-item-wrapper{
+	display: none;
+}
+
+@media(min-width:768px){
+	.value-item-wrapper{
+		display: block;
+	}
+}
+
+.img-fluid{
+	width: 100%;
+	height: auto;
 }
