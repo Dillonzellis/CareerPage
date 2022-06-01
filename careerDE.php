@@ -91,10 +91,10 @@
 </section>
 <!-- starter -->
 <section class="mb-5">
-   <div class="container join-container">
+   <div class="container-fluid join-container">
       <div class="row mt-5">
                      <div class="blue-rect"></div>
-         <div class="col-lg-6">
+         <div class="col-md-6">
             <div class="starter-wrapper">
                <div class="starter-photo-wrapper">
                   <div class="starter-img"></div>
@@ -102,7 +102,7 @@
                <div class="green-square"></div>
             </div>
          </div>
-         <div class="col-lg-6" style="display: flex;align-items: center;">
+         <div class="col-md-6">
             <div class="starter-right-col">
         
 
@@ -119,7 +119,7 @@
                   members. We are also committed to providing internship and employment opportunities to students
                   with various career interests.</p>
                   <div class="starter-btn-wrapper">
-                     <button class="hero-btn de-btn">
+                     <button class="starter-btn de-btn">
                         <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer">NEW CAREER
                         </a>
                      </button>
@@ -413,8 +413,7 @@
                      <hr class="value-hr hr-left" />
                      <p class="value-text" style="margin-bottom: 0;">
                         It’s the bottom line of our company’s purpose. People want to work for companies that
-                        inspire them, so add a statement of our vision: what we want to achieve and how we work
-                        toward our goals.
+                        inspire them, so add a statement of our vision:
                      </p>
                   </div>
                </div>
@@ -541,8 +540,7 @@
                      <h2 class="value-header">Our Workspace</h2>
                      <hr class="value-hr hr-left" />
                      <p class="value-text">
-                        Candidates want to know more about their future workspaces. Let them know the location of
-                        your offices, how they are designed (e.g. open-plan, meeting rooms) and what kind of
+                        Candidates want to know more about their future workspaces. Let them know the location of your offices, how they are designed and what kind of
                         technology they’ll get access to.
                      </p>
                   </div>
@@ -578,7 +576,7 @@
                   <div class="card-text-body">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                     laboris nisi ut aliquip ex ea commodo consequat
+                  
                   </div>
                </div>
             </div>
@@ -667,7 +665,6 @@
                   <div class="card-text-body">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                     laboris nisi ut aliquip ex ea commodo consequat
                   </div>
                </div>
             </div>
@@ -688,7 +685,7 @@
 
    <div class="test-card-container">
       <div class="row">
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -702,7 +699,7 @@
                </div>
             </div>
          </div>
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -717,7 +714,7 @@
                </div>
             </div>
          </div>
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -737,7 +734,7 @@
    </div>
    <div class="test-card-container mb-5">
       <div class="row">
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -752,7 +749,7 @@
                </div>
             </div>
          </div>
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -767,7 +764,7 @@
                </div>
             </div>
          </div>
-         <div class="col">
+         <div class="col-md-4">
             <div class="flip-card">
                <div class="flip-card-inner">
                   <div class="flip-card-front">
