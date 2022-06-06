@@ -45,6 +45,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -93,23 +97,23 @@
 <section class="mb-5">
    <div class="container-fluid join-container">
       <div class="row mt-5">
-                     <div class="blue-rect"></div>
+                     <div class="blue-rect animate__animated animate__fadeInLeft"></div>
          <div class="col-md-6">
             <div class="starter-wrapper">
                <div class="starter-photo-wrapper">
                   <div class="starter-img"></div>
                </div>
-               <div class="green-square"></div>
+               <div class="green-square animate__animated animate__delay-1s animate__fadeIn"></div>
             </div>
          </div>
          <div class="col-md-6">
             <div class="starter-right-col">
         
 
-               <h2 class="join-h2">
+               <h2 class="join-h2 animate__animated animate__fadeInLeft">
                   EXPLORE CAREERS
                </h2>
-               <h3 class="subjoin">
+               <h3 class="subjoin animate__animated animate__fadeInLeft">
                   Join Our Team
                </h3>
                <hr class="starter-hr">
@@ -118,11 +122,11 @@
                   diverse, inclusive environment encourages idea sharing and relationship building among our team
                   members. We are also committed to providing internship and employment opportunities to students
                   with various career interests.</p>
-                  <div class="starter-btn-wrapper">
-                     <button class="starter-btn de-btn">
-                        <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer">NEW CAREER
-                        </a>
-                     </button>
+                  <div class="starter-btn-wrapper animate__animated animate__fadeInRight">
+                     <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
+                        NEW CAREER
+                     	</button>
+					  </a>
                   </div>
             </div>
 
@@ -563,7 +567,7 @@
    </div>
    <div class="container card-container">
       <div class="row card-row">
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <img src="imgs/benefits-md.jpg" class="img-fluid">
@@ -581,7 +585,7 @@
                </div>
             </div>
          </div>
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <!-- <img src="imgs/retire.png" alt="" srcset="" class="img-fluid"> -->
@@ -600,7 +604,7 @@
                </div>
             </div>
          </div>
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <img src="imgs/career-md.jpg" alt="" srcset="" class="img-fluid">
@@ -619,7 +623,7 @@
          </div>
       </div>
       <div class="row">
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <img src="imgs/rewards-md.jpg" alt="" srcset="" class="img-fluid">
@@ -636,7 +640,7 @@
                </div>
             </div>
          </div>
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <img src="imgs/VTO.jpg" alt="" srcset="" class="img-fluid">
@@ -653,7 +657,7 @@
                </div>
             </div>
          </div>
-         <div class="col-lg-4">
+         <div class="col-md-4">
             <div class="card">
                <div class="card-image">
                   <img src="imgs/VTO.jpg" alt="" srcset="" class="img-fluid">
