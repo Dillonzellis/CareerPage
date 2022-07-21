@@ -127,14 +127,19 @@
                                             COME WORK WITH US
                                         </button>
                                     </a>
-                                    <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
+                                    <!-- <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
                                             CHECK US OUT!
                                         </button>
-                                    </a>
-                                    <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
+                                    </a> -->
+                                    <a href="https://www.youtube.com/channel/UCAmlmfkbW5zGd24Y_FzKsKA" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
                                             LEARN MORE ABOUT WE DO!
                                         </button>
                                     </a>
+                                </div>
+
+                                <div class="social-btns animate__animated animate__fadeInRight">
+                                    <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><img src="imgs/fb icon.png" alt="facebook" srcset=""></a>
+                                    <a href="https://twitter.com/LeagueofSECUs/" target="_blank" rel="noopener noreferrer"><img src="imgs/twitter icon.png" alt="twitter" srcset=""></a>
                                 </div>
                             </div>
 
@@ -739,10 +744,10 @@
                                     <div class="flip-card-front">
                                         <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" />
                                     </div>
-                                    <div class="flip-card-back">
+                                    <div class="flip-card-back" style="padding: 0">
                                         <h1>Gerald McSwain</h1>
                                         <p>Facilities and Operations Manager</p>
-                                        <p>I love working for LSCU because I feel like I make a difference. I believe in our core values and what we represent as an organization. Even though I don’t work directly with Credit Unions, understanding my role as the Facilities Manager is significant because of my responsibility to ensure a safe, secure, and productive environment for our team members, so that they can work hard to serve our members. This gives me a great sense of pride and gratification.</p>
+                                        <p>I love working for LSCU because I feel like I make a difference. I believe in our core values and what we represent as an organization.Understanding my role as the Facilities Manager is significant because of my responsibility to ensure a safe, secure, and productive environment for our team members, so that they can work hard to serve our members.</p>
                                     </div>
                                 </div>
                             </div>
