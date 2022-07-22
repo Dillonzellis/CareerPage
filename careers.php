@@ -622,7 +622,7 @@
                                         OUR ENGAGEMENT
                                     </div>
                                     <div class="card-text-body">
-                                        The average person will spend about 90,000 hours at work over the course of a lifetime. Why not make it fun and be engaged? Our engagement committee provides the opportunity for teams across our footprint to get to know one another and nurture personal relationships while boosting workplace morale. From coffee break networking, sports outings, and social events, our committees work together to create engaging experiences for everyone.
+                                     Our engagement committee provides the opportunity for teams across our footprint to get to know one another and nurture personal relationships while boosting workplace morale. From coffee break networking, sports outings, and social events, our committees work together to create engaging experiences for everyone.
                                     </div>
                                 </div>
                             </div>
@@ -650,7 +650,7 @@
             <section class="team-tesimonials">
                 <div class="container-fluid testimonial-header">
 
-                    <h2 class="test-h2">What Our Team Has To Say</h2>
+                    <h2 class="test-h2">What Our <span style="color:#B0D460">Team</span> Has To Say</h2>
 
 
                 </div>
@@ -714,7 +714,7 @@
 
 
 
-                <div class="test-card-container mb-5">
+                <div class="test-card-container">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="flip-card">
