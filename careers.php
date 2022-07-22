@@ -622,7 +622,7 @@
                                         OUR ENGAGEMENT
                                     </div>
                                     <div class="card-text-body">
-                                     Our engagement committee provides the opportunity for teams across our footprint to get to know one another and nurture personal relationships while boosting workplace morale. From coffee break networking, sports outings, and social events, our committees work together to create engaging experiences for everyone.
+                                        Our engagement committee provides the opportunity for teams across our footprint to get to know one another and nurture personal relationships while boosting workplace morale. From coffee break networking, sports outings, and social events, our committees work together to create engaging experiences for everyone.
                                     </div>
                                 </div>
                             </div>
@@ -664,12 +664,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" />
+                                        <img src="imgs/testimonials/lina.png" alt="Avatar" style="width: 360; height: 325px" />
                                     </div>
                                     <div class="flip-card-back">
                                         <h1>Lina Guzman</h1>
                                         <p>Operations Assistant</p>
-                                        <p>What I love most about working for LSCU & Affiliates is the people. They care about you as a person and as a colleague. You are treated with respect and professionalism every day. They foster a family atmosphere while providing you the opportunity to grow</p>
+                                        <p>"What I love most about working for LSCU & Affiliates is the people. They care about you as a person and as a colleague. You are treated with respect and professionalism every day. They foster a family atmosphere while providing you the opportunity to grow."</p>
                                     </div>
                                 </div>
                             </div>
@@ -679,12 +679,13 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" />
+                                        <!-- <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" /> -->
+                                        <img src="imgs/testimonials/mike.png" alt="Avatar" style="width: 360; height: 325px" />
                                     </div>
                                     <div class="flip-card-back">
                                         <h1>Mike Miller</h1>
                                         <p>Communications Manager</p>
-                                        <p>LSCU & Affiliates is a great place to work! The people and the culture here are unlike anything I’ve seen before. Everyone works together. It’s a team effort from department to department. And the company has great pay, benefits, and social events to keep you feeling like you matter. Highly recommend!</p>
+                                        <p>"LSCU & Affiliates is a great place to work! The people and the culture here are unlike anything I’ve seen before. Everyone works together. It’s a team effort from department to department. And the company has great pay, benefits, and social events to keep you feeling like you matter. Highly recommend!"</p>
                                     </div>
                                 </div>
                             </div>
@@ -694,12 +695,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" />
+                                        <img src="imgs/testimonials/marcus.png" alt="Avatar" style="width: 360; height: 325px" />
                                     </div>
                                     <div class="flip-card-back">
                                         <h1 style="margin-bottom: 8px">Marcus King</h1>
                                         <p>VP, Audit and Compliance</p>
-                                        <p style="line-height: 1.1;">LSCU & Affiliates is the only company I have ever worked for. I started right out of college and have been promoted throughout my career to now the VP of Audit and Compliance. I am trusted to do my job and I know when I do a great job, I will be rewarded. LSCU & Affiliates invests in its employees and gives them the best chance to succeed through tuition reimbursement and professional development.</p>
+                                        <p style="line-height: 1.1;">"LSCU & Affiliates is the only company I have ever worked for. I started right out of college and have been promoted throughout my career to now the VP of Audit and Compliance. I am trusted to do my job and I know when I do a great job, I will be rewarded. LSCU & Affiliates invests in its employees and gives them the best chance to succeed through tuition reimbursement and professional development."</p>
                                     </div>
                                 </div>
                             </div>
@@ -720,12 +721,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <img src="https://via.placeholder.com/360x325" alt="Avatar" style="width: 360; height: 325px" />
+                                        <img src="imgs/testimonials/kristi.png" alt="Avatar" style="width: 360; height: 325px" />
                                     </div>
                                     <div class="flip-card-back">
                                         <h1>Kristi Arrington</h1>
                                         <p>VP, Growth by Design</p>
-                                        <p>At LSCU & Affiliates, we get to live out the credit union philosophy of people helping people. It makes a world of difference to believe in the work you are doing and the people you are doing the work with. When colleagues and clients start feeling more like extended family, you know you are in the right place.</p>
+                                        <p>"At LSCU & Affiliates, we get to live out the credit union philosophy of people helping people. It makes a world of difference to believe in the work you are doing and the people you are doing the work with. When colleagues and clients start feeling more like extended family, you know you are in the right place."</p>
                                     </div>
                                 </div>
                             </div>
@@ -740,8 +741,8 @@
                                     <div class="flip-card-back">
                                         <h1>Melissa Brown</h1>
                                         <p>Senior Accountant</p>
-                                        <p>I love working for the LSCU because of the intelligent, passionate people I get to work with. I also enjoy working in a Company that is growing and always provides more career opportunities.
-                                            LSCU offers great benefits that help the employee to feel rewarded for the good job that they do.
+                                        <p>"I love working for the LSCU because of the intelligent, passionate people I get to work with. I also enjoy working in a Company that is growing and always provides more career opportunities.
+                                            LSCU offers great benefits that help the employee to feel rewarded for the good job that they do."
                                         </p>
                                     </div>
                                 </div>
@@ -757,7 +758,7 @@
                                     <div class="flip-card-back" style="padding: 0">
                                         <h1>Gerald McSwain</h1>
                                         <p>Facilities and Operations Manager</p>
-                                        <p>I love working for LSCU because I feel like I make a difference. I believe in our core values and what we represent as an organization.Understanding my role as the Facilities Manager is significant because of my responsibility to ensure a safe, secure, and productive environment for our team members, so that they can work hard to serve our members.</p>
+                                        <p>"I love working for LSCU because I feel like I make a difference. I believe in our core values and what we represent as an organization.Understanding my role as the Facilities Manager is significant because of my responsibility to ensure a safe, secure, and productive environment for our team members, so that they can work hard to serve our members."</p>
                                     </div>
                                 </div>
                             </div>

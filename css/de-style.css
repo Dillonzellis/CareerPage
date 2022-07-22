@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  color: unset !important;
+}
+
 p {
   font-size: 16px;
 }
@@ -110,7 +114,7 @@ button {
   border-radius: 21.4286px;
   color: #fff;
   font-weight: 700;
-  padding: 12px;
+  padding: 8px 16px;
   text-decoration: none;
   font-size: 16px;
   font-family: Montserrat, sans-serif;
@@ -446,13 +450,13 @@ height: calc(100% - 50px);
   margin: 0.5rem;
 }
 
-.starter-btn > a {
+/* .starter-btn > a {
   color: #fff;
-}
+} */
 
-.starter-btn:hover {
+/* .starter-btn:hover {
   color: #2a5a72 !important;
-}
+} */
 
 .social-btns {
   margin-left: 8px;
