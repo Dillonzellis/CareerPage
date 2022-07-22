@@ -121,25 +121,35 @@
                                     Join Our Team
                                 </h3>
                                 <hr class="starter-hr">
-                                <p class="mb-5 starter-subtext"> At LSCU & Affiliates, we invest in our team and value ownership, influence, and collaboration (insert core values here). Here, we foster a diverse and inclusive environment for idea sharing and relationship-building among our team members and industry leaders. Join us in creating an environment that enables credit unions to grow and succeed across the southeast and beyond.</p>
+                                <p class="starter-subtext"> At LSCU & Affiliates, we invest in our team and value ownership, influence, and collaboration (insert core values here). Here, we foster a diverse and inclusive environment for idea sharing and relationship-building among our team members and industry leaders. Join us in creating an environment that enables credit unions to grow and succeed across the southeast and beyond.</p>
                                 <div class="starter-btn-wrapper animate__animated animate__fadeInRight">
-                                    <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
+                                    <button class="starter-btn de-btn">
+                                        <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer">
                                             COME WORK WITH US
-                                        </button>
-                                    </a>
+                                        </a>
+                                    </button>
+
                                     <!-- <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
                                             CHECK US OUT!
                                         </button>
                                     </a> -->
-                                    <a href="https://www.youtube.com/channel/UCAmlmfkbW5zGd24Y_FzKsKA" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
+                                    <button class="starter-btn de-btn">
+                                        <a href="https://www.youtube.com/channel/UCAmlmfkbW5zGd24Y_FzKsKA" target="_blank" rel="noopener noreferrer">
                                             LEARN MORE ABOUT WE DO!
-                                        </button>
-                                    </a>
+                                        </a>
+                                    </button>
+
                                 </div>
 
                                 <div class="social-btns animate__animated animate__fadeInRight">
+                                    <!--
                                     <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><img src="imgs/fb icon.png" alt="facebook" srcset=""></a>
                                     <a href="https://twitter.com/LeagueofSECUs/" target="_blank" rel="noopener noreferrer"><img src="imgs/twitter icon.png" alt="twitter" srcset=""></a>
+-->
+
+                                    <i class="fa fa-facebook fa-socials-de"></i>
+
+                                    <i class="fa fa-twitter fa-socials-de" style="padding: 7px 11px;"></i>
                                 </div>
                             </div>
 
