@@ -1,6 +1,11 @@
 :root {
   --blue: #2b5b73;
   --green: #b0d460;
+
+  --md:768px;
+  --lg:992px;
+  --xl:1200px;
+  --xxl:1400px;
 }
 
 body {
@@ -29,7 +34,7 @@ p {
 /* Hero */
 
 .hero-container {
-  /* min-height: 500vh; */
+  position: relative;
 }
 
 .hero-img {
@@ -38,6 +43,20 @@ p {
   min-height: 35vh;
   background-repeat: no-repeat;
 }
+
+@media(min-width:768px){
+  .hero-img{
+    min-height: 60vh;
+  }
+}
+
+@media(min-width:1200px){
+  .hero-img{
+    min-height: 40vh;
+  }
+}
+
+
 
 /* Ready Section */
 
