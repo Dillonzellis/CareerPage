@@ -22,6 +22,8 @@ p {
   margin: 0;
 }
 
+
+
 .de-btn {
   background-color: var(--blue);
   color: #fff;
@@ -53,6 +55,7 @@ p {
 @media(min-width:1200px){
   .hero-img{
     min-height: 40vh;
+
   }
 }
 
