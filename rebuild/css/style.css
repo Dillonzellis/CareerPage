@@ -1,5 +1,31 @@
 :root {
   --clr-primary-400: #2a5a72;
+
+  --clr-accent-400: #b0d460;
+
+  --clr-neutral--100: #ffffff;
+  --clr-neutral--400: #cbcbcb;
+  --clr-neutral--700: #343434;
+
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-accent: "Dancing Script", cursive;
+
+  --ff-heading: var(--ff-primary);
+  --ff-secondary-heading: var(--ff-accent);
+  --ff-body: var(--ff-primary);
+
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  --fs-400: 1rem;
+  --fs-600: 2rem;
+  --fs-700: 2.5rem;
+
+  --fs-body: var(--fs-400);
+  --fs-primary-heading: var(--fs-700);
+  --fs-btn: var(--fs-400);
 }
 
 /* Box sizing rules */
@@ -66,3 +92,39 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
+/* Utility Classes */
+
+.primary-header-100 {
+  color: var(--clr-neutral--100);
+  font-weight: var(--fw-bold);
+}
+
+.primary-header-400 {
+  color: var(--clr-primary-400);
+  font-weight: var(--fw-bold);
+}
+
+.secondary-header-400 {
+  color: var(--clr-accent-400);
+}
+
+.text-primary-100 {
+  color: var(--clr-neutral--100);
+}
+
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+/* General Styles */
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  color: var(--clr-neutral--100);
+}
+
+/* Button */
+
+

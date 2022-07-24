@@ -15,7 +15,7 @@ Blue: #2A5A72
 
 ### Accent
 
-Green: #B0D460;
+Green: #B0D460
 
 ### Neutral
 
@@ -31,8 +31,11 @@ Dark Gray: #343434
 
 ### Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat)
+- Primary-Family: [Montserrat](https://fonts.google.com/specimen/Montserrat?query=montserrat)
 - Weights: 400, 600, 700, 900
+
+- Accent-Family: [DancingScript](https://fonts.google.com/specimen/Dancing+Script?query=dancing)
+- Weights: 700
 
 ## Icons
 
