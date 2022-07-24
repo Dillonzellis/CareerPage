@@ -17,7 +17,7 @@
   --fw-regular: 400;
   --fw-semi-bold: 600;
   --fw-bold: 700;
-  --fw-black: 900;
+  --fw-black: 800;
 
   --fs-400: 1rem;
   --fs-600: 2rem;
@@ -25,6 +25,7 @@
 
   --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-700);
+  --fs-secondary-heading: var(--fs-700);
   --fs-btn: var(--fs-400);
 }
 
@@ -98,15 +99,25 @@ svg {
 .primary-header-100 {
   color: var(--clr-neutral--100);
   font-weight: var(--fw-bold);
+  font-size: var(--fs-primary-heading);
 }
 
 .primary-header-400 {
   color: var(--clr-primary-400);
   font-weight: var(--fw-bold);
+  font-size: var(--fs-primary-heading);
 }
 
 .secondary-header-400 {
   color: var(--clr-accent-400);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-secondary-heading);
+  font-family: var(--ff-secondary-heading);
+}
+
+.heading-accent {
+  color: var(--clr-accent-400);
+  font-weight: var(--fw-black);
 }
 
 .text-primary-100 {
@@ -117,6 +128,10 @@ svg {
   color: var(--clr-primary-400);
 }
 
+.bg-primary-400 {
+  background-color: var(--clr-primary-400);
+}
+
 /* General Styles */
 
 body {
@@ -125,6 +140,28 @@ body {
   color: var(--clr-neutral--100);
 }
 
+hr {
+  border-color: var(--clr-neutral--100);
+}
+
 /* Button */
 
+.btn {
+}
 
+/* Hero */
+.hero-img {
+  background-image: url("../imgs/inner-headerBG\ 1.png");
+  background-size: cover;
+}
+
+/* Accordion */
+details {
+  color: #343434;
+}
+
+.testimonial-card {
+  width: min(90%, 360px);
+  height: 325px;
+  background-color: var(--clr-primary-400);
+}
