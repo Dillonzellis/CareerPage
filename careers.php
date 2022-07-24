@@ -142,14 +142,14 @@
                                 </div>
 
                                 <div class="social-btns animate__animated animate__fadeInRight">
-                                    <!--
-                                    <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><img src="imgs/fb icon.png" alt="facebook" srcset=""></a>
-                                    <a href="https://twitter.com/LeagueofSECUs/" target="_blank" rel="noopener noreferrer"><img src="imgs/twitter icon.png" alt="twitter" srcset=""></a>
--->
 
-                                    <i class="fa fa-facebook fa-socials-de"></i>
 
-                                    <i class="fa fa-twitter fa-socials-de" style="padding: 7px 11px;"></i>
+
+                                    <a href="https://twitter.com/LeagueofSECUs/"  style="margin-right:10px" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook fa-socials-de"></i></a>
+
+
+                                    <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-socials-de"></i></a>
+
                                 </div>
                             </div>
 

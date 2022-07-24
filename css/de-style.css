@@ -460,15 +460,12 @@ height: calc(100% - 50px);
 
 .social-btns {
   margin-left: 8px;
+  margin-bottom: 16px;
 }
 
 .fa-socials-de {
   font-size: 3rem !important;
-  background-color: #2b5b73;
-  color: #fff;
-  padding: 0.25em 0.5em;
-  border-radius: 10px;
-  border: 2px solid #b0d460;
+  color: #2b5b73;
 }
 
 /*
