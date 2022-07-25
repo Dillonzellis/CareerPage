@@ -169,6 +169,14 @@ svg {
   margin-inline: auto;
 }
 
+.flex{
+  display: flex;
+}
+
+.absolute{
+  position: absolute;
+}
+
 .relative {
   position: relative;
   height: 472px;

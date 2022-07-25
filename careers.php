@@ -145,7 +145,7 @@
 
 
 
-                                    <a href="https://twitter.com/LeagueofSECUs/"  style="margin-right:10px" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook fa-socials-de"></i></a>
+                                    <a href="https://twitter.com/LeagueofSECUs/" style="margin-right:10px" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook fa-socials-de"></i></a>
 
 
                                     <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-socials-de"></i></a>
