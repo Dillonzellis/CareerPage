@@ -31,7 +31,6 @@
 
     <!-- stylesheets -->
     <link rel="stylesheet" media="screen" href="../js/bootstrap/bootstrap.min.css" type="text/css" />
-    <!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha3841BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />-->
     <link rel="stylesheet" href="../css/de-style.css">
 
     <link rel="stylesheet" href="../js/megamenu/stylesheets/screen.css" type="text/css" />
@@ -84,23 +83,12 @@
                 <div class="hero-wrapper">
                     <div class="hero-text-wrapper">
                         <h1 class="hero-text">CAREERS</h1>
-                        <!--                        <hr class="hero-hr mb-4" />-->
-                        <!-- <h2 class="hero-sub-text">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </h2> -->
                     </div>
-                    <!--
-         <div class="hero-btn-wrapper">
-            <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button
-                  class="hero-btn de-btn">SEARCH CAREERS</button></a>
-         </div>
--->
-                </div>
             </section>
             <!-- starter -->
-            <section class="mb-5">
+            <section class="">
                 <div class="container-fluid join-container">
-                    <div class="row mt-5">
+                    <div class="row">
                         <div class="blue-rect animate__animated animate__fadeInLeft"></div>
                         <div class="col-md-6">
                             <div class="starter-wrapper">
@@ -123,50 +111,36 @@
                                 <hr class="starter-hr">
                                 <p class="starter-subtext"> At LSCU & Affiliates, we invest in our team and value ownership, influence, and collaboration (insert core values here). Here, we foster a diverse and inclusive environment for idea sharing and relationship-building among our team members and industry leaders. Join us in creating an environment that enables credit unions to grow and succeed across the southeast and beyond.</p>
                                 <div class="starter-btn-wrapper animate__animated animate__fadeInRight">
-                                    <button class="starter-btn de-btn">
-                                        <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer">
-                                            COME WORK WITH US
-                                        </a>
-                                    </button>
-
-                                    <!-- <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer"><button class="starter-btn de-btn">
-                                            CHECK US OUT!
+                                    <div class="btn-wrapper">
+                                        <button class="starter-btn de-btn">
+                                            <a href="https://lscu.applicantpro.com/jobs/" target="_blank" rel="noopener noreferrer">
+                                                Come Work With Us
+                                            </a>
                                         </button>
-                                    </a> -->
-                                    <button class="starter-btn de-btn">
-                                        <a href="https://www.youtube.com/channel/UCAmlmfkbW5zGd24Y_FzKsKA" target="_blank" rel="noopener noreferrer">
-                                            LEARN MORE ABOUT WE DO!
-                                        </a>
-                                    </button>
+                                    </div>
 
+
+                                    <div class="social-btns animate__animated animate__fadeInRight">
+                                        <a href="https://www.youtube.com/channel/UCAmlmfkbW5zGd24Y_FzKsKA" target="_blank" rel="noopener noreferrer"><img src="./imgs/socials/youtube.png" alt="youtube icon"></a>
+                                        <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><img src="./imgs/socials/fb.png" alt="facebook icon"></a>
+                                        <a href="https://twitter.com/LeagueofSECUs/" target="_blank" rel="noopener noreferrer"><img src="./imgs/socials/twitter.png" alt="twitter icon"></a>
+                                    </div>
                                 </div>
 
-                                <div class="social-btns animate__animated animate__fadeInRight">
 
-
-
-                                    <a href="https://twitter.com/LeagueofSECUs/" style="margin-right:10px" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook fa-socials-de"></i></a>
-
-
-                                    <a href="https://www.facebook.com/LeagueofSoutheasternCreditUnions/" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-socials-de"></i></a>
-
-                                </div>
                             </div>
 
-
                         </div>
-
                     </div>
-                </div>
-                <div class="ess-blue-container fluid-container">
-                    <div class="essential-container container">
+                    <div class="ess-blue-container fluid-container">
+                        <div class="essential-container container">
 
-                        <h3 class="essential-header">Why Choose <em>LSCU</em> & Affliates</h3>
-                        <hr class="ess-hr">
-                        <p class="essentail-subtext">At LSCU & Affiliates, we are driven by service and our commitment to credit unions. We work tirelessly to strengthen, support, and advocate for the credit unions industry. Come work with a team who supports a philosophy of ‘people helping people’
-                        </p>
+                            <h3 class="essential-header">Why Choose <span>LSCU</span> & Affliates</h3>
+                            <hr class="ess-hr">
+                            <p class="essentail-subtext">At LSCU & Affiliates, we are driven by service and our commitment to credit unions. We work tirelessly to strengthen, support, and advocate for the credit unions industry. Come work with a team who supports a philosophy of ‘people helping people’
+                            </p>
+                        </div>
                     </div>
-                </div>
             </section>
             <!-- values -->
             <!-- <section>
@@ -707,13 +681,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
 
                 <div class="test-card-container">
                     <div class="row">

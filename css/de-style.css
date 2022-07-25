@@ -110,16 +110,15 @@ button {
 
 .de-btn {
   background: #2a5a72;
-  border: 1.5px solid #ffffff;
   border-radius: 21.4286px;
   color: #fff;
-  font-weight: 700;
-  padding: 8px 16px;
+  font-weight: 600;
+  padding: 10px 15px;
   text-decoration: none;
   font-size: 16px;
   font-family: Montserrat, sans-serif;
   transition: 0.5s !important;
-  border: 2px solid #b0d460;
+  border: none !important;
 }
 
 .de-btn:hover {
@@ -131,6 +130,7 @@ button {
 /* starter */
 .join-container {
   position: relative;
+  max-width: 1322px;
 }
 
 .starter-wrapper {
@@ -441,8 +441,8 @@ height: calc(100% - 50px);
 }
 
 .starter-btn-wrapper {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .starter-btn {
@@ -512,7 +512,7 @@ min-height: 225px;
   color: #fff;
   font-weight: 700;
 
-  font-size: 3rem;
+  font-size: 40px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -887,7 +887,7 @@ svg {
 .hero-text {
   color: #fff;
   font-family: Montserrat, sans-serif;
-  font-size: 42px;
+  font-size: 40px;
 }
 
 .value-text-container:hover .value-header {
