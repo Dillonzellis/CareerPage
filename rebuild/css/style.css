@@ -27,6 +27,8 @@
   --fs-primary-heading: var(--fs-700);
   --fs-secondary-heading: var(--fs-700);
   --fs-btn: var(--fs-400);
+
+  --wide-container-padding: 2.9rem;
 }
 
 /* Box sizing rules */
@@ -132,6 +134,57 @@ svg {
   background-color: var(--clr-primary-400);
 }
 
+/* .container {
+  --max-width: 1200px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - var(--padding) * 2);
+  margin-inline: auto;
+} */
+
+.full-container {
+  width: 100%;
+}
+
+.wide-container {
+  --max-width: 1325px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+  padding: 1rem 1rem;
+}
+
+@media (min-width: 50em) {
+  .wide-container-content {
+    padding: 0 var(--wide-container-padding);
+  }
+}
+
+.container {
+  --max-width: 1200px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+
+.relative {
+  position: relative;
+  height: 472px;
+}
+
+/* .even-col {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 50em) {
+  .even-col {
+    grid-auto-flow: column;
+  }
+} */
+
 /* General Styles */
 
 body {
@@ -142,6 +195,7 @@ body {
 
 hr {
   border-color: var(--clr-neutral--100);
+  margin-left: 2.9rem;
 }
 
 /* Button */
@@ -155,7 +209,35 @@ hr {
   background-size: cover;
 }
 
+/* CTA */
+
+.cta {
+}
+
+@media (min-width: 50em) {
+  .cta {
+    display: flex;
+    position: relative;
+  }
+}
+
+.cta img {
+  display: none;
+}
+
+@media (min-width: 50em) {
+  .cta img {
+    display: block;
+    /* position: absolute; */
+  }
+}
+
 /* Accordion */
+
+/* .accordion {
+  display: grid;
+} */
+
 details {
   color: #343434;
 }
