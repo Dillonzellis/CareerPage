@@ -104,8 +104,8 @@ svg {
   font-size: var(--fs-primary-heading);
 }
 
-@media(min-width:50em){
-  .primary-header-100{
+@media (min-width: 50em) {
+  .primary-header-100 {
     font-size: var(--fs-primary-heading);
   }
 }
@@ -175,11 +175,11 @@ svg {
   margin-inline: auto;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.absolute{
+.absolute {
   position: absolute;
 }
 
@@ -224,22 +224,20 @@ hr {
   background-repeat: no-repeat;
 }
 
-.hero-img>h1 {
+.hero-img > h1 {
   text-align: center;
 }
 
-
-@media(min-width:50em){
-  .hero-img{
+@media (min-width: 50em) {
+  .hero-img {
     background-size: cover;
   }
 
-  .hero-img>h1 {
+  .hero-img > h1 {
     padding-top: 17rem;
     padding-bottom: 6rem;
   }
 }
-
 
 /* CTA */
 
@@ -260,20 +258,76 @@ hr {
 @media (min-width: 50em) {
   .ready-img {
     /* display: block; */
-    background-image: url('../imgs/Ready-img.png');
+    background-image: url("../imgs/Ready-img.png");
     /* position: absolute; */
   }
 }
 
 /* Accordion */
 
-/* .accordion {
+.accordion {
   display: grid;
-} */
+    gap: 1.75em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.accord-col> details{
+  margin-bottom: 0.35em;
+}
 
 details {
-  color: #343434;
+  color: var(--clr-primary-400);
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 0.25em 0.5em 0.25em;
+  position: relative;
 }
+
+details summary {
+  cursor: pointer;
+}
+
+details[open] summary {
+  padding-bottom: 0.5em;
+}
+
+summary {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+details > summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: '+';
+  font-size: 1.75rem;
+}
+
+details[open] summary:after {
+  content: "-";
+
+}
+
+details p {
+  color: var(--clr-neutral--700);
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  max-width: 535px;
+}
+
+.values-benefits{
+  margin-inline: auto;
+}
+
+/* Testimonials */
 
 .testimonial-card {
   width: min(90%, 360px);
@@ -285,7 +339,7 @@ details {
   justify-content: center; */
 }
 
-.testimonial-card >img{
+.testimonial-card > img {
   position: absolute;
   top: -15px;
   left: 50%;
