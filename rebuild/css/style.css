@@ -253,13 +253,14 @@ hr {
   }
 }
 
-.cta img {
+/* .ready-img {
   display: none;
-}
+} */
 
 @media (min-width: 50em) {
-  .cta img {
-    display: block;
+  .ready-img {
+    /* display: block; */
+    background-image: url('../imgs/Ready-img.png');
     /* position: absolute; */
   }
 }
