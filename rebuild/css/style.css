@@ -1,4 +1,6 @@
 :root {
+  font-size: 16px;
+
   --clr-primary-400: #2a5a72;
 
   --clr-accent-400: #b0d460;
@@ -169,7 +171,7 @@ svg {
   }
 }
 
-.container {
+.container-de {
   --max-width: 1475px;
   --padding: 1rem;
 
@@ -178,7 +180,7 @@ svg {
 }
 
 @media (min-width: 50em) {
-  .container {
+  .container-de {
     --padding: 2.5rem;
   }
 }
