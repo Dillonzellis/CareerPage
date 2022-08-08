@@ -1,3 +1,23 @@
+/* Dreamweaver Boostrap Fixes */
+
+.container {
+  font-size: 14px;
+  color: black;
+}
+
+h3 {
+  line-height: unset;
+  margin-bottom: unset;
+  font-style: unset;
+}
+
+hr {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+/* End Fixes */
+
 :root {
   font-size: 16px;
 
@@ -116,6 +136,10 @@ svg {
   font-weight: var(--fw-bold);
   font-size: var(--fs-primary-heading);
   line-height: 1.25;
+
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-primary);
 }
 
 @media (min-width: 50em) {
@@ -202,7 +226,6 @@ svg {
 
 .relative {
   position: relative;
-  /* height: 472px; */
 }
 
 .even-col {
@@ -262,7 +285,6 @@ hr {
     display: block;
     border-color: var(--clr-neutral--100);
     margin-bottom: 0.5rem;
-    /* margin-left: 2.9rem; */
   }
 }
 
@@ -289,17 +311,16 @@ p {
   text-decoration: none;
 }
 
-.btn > a {
-  color: var(--clr-neutral--100);
-  text-decoration: none;
+.btn:hover{
+  background-color: var(--clr-neutral--100);
+  color: var(--clr-primary-400);
+  border: 2px solid var(--clr-primary-400);
 }
 
 /* Hero */
 .hero-img {
-/*  background-image: url("../imgs/inner-headerBG\ 1.png");*/
-	background-image: url("../about/imgs/Career-Page/imgs/inner-headerBG 1.png");
-  /* background-size: contain;
-  height: auto; */
+  /*  background-image: url("../imgs/inner-headerBG\ 1.png");*/
+  background-image: url("../about/imgs/Career-Page/imgs/inner-headerBG 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -326,10 +347,6 @@ p {
   }
 }
 
-.hero-img > h1 {
-  /* padding-top: 10rem;
-  padding-bottom: 2rem; */
-}
 
 @media (min-width: 50em) {
   .hero-img > h1 {
@@ -346,35 +363,14 @@ p {
   }
 }
 
-.cta .wide-container {
-}
-
-/* @media (min-width: 50em) {
-  .blue-bar-bg {
-    background-color: var(--clr-primary-400);
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    top: 124px;
-    z-index: -10;
-  }
-} */
-
 @media (min-width: 1000px) {
   .ready-img {
-    /* display: block; */
-/*    background-image: url("../imgs/Ready-img.png");*/
-	  background-image: url("../about/imgs/Career-Page/imgs/Ready-img.png");
+    /*    background-image: url("../imgs/Ready-img.png");*/
+    background-image: url("../about/imgs/Career-Page/imgs/Ready-img.png");
     width: 490px;
     height: 450px;
 
     position: relative;
-    /* position: absolute; */
-    /* box-shadow:
-    12px 8px 0 0px transparent,
-    14px 6px 0 0px green,
-    14px 10px 0 0px green,
-    10px 10px 0 0px green; */
   }
 
   .ready-img::before {
@@ -391,8 +387,7 @@ p {
   }
 }
 
-.btns-wrapper {
-}
+
 
 @media (min-width: 50em) {
   .btns-wrapper {
@@ -526,14 +521,32 @@ details[open] summary:after {
 
 details p {
   color: var(--clr-neutral--700);
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+  padding-top: 1rem;
+  /* padding-bottom: 0.5rem; */
   /* max-width: 535px; */
 }
 
 .values-benefits {
   margin-inline: auto;
 }
+
+/* Accordion Animate */
+details[open] summary ~ * {
+  animation: sweep .5s;
+}
+
+/* details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+} */
+
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+/* @keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+} */
 
 /* Testimonials */
 .testimonials-wrapper {
@@ -548,6 +561,7 @@ details p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
+    margin-bottom: 1rem;
   }
 }
 
@@ -576,7 +590,6 @@ details p {
 
 .flip-card {
   background-color: transparent;
-  /* width: 350px; */
   height: 325px;
   perspective: 1000px;
   margin-bottom: 1rem;
@@ -651,9 +664,11 @@ details p {
 }
 
 
-/* Dreamweaver Boostrap Fixes */
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
 
-.container{
-  font-size: 14px;
-  color: black;
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
 }
