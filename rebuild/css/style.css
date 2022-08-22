@@ -95,11 +95,15 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-.img-de,
+
 picture,
 svg {
   max-width: 100%;
   display: block;
+}
+
+.img-de {
+  width: 100%;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -473,6 +477,10 @@ p {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2rem;
   }
+}
+
+.accordion .img-de{
+  width: 100%;
 }
 
 .accord-col > details {
