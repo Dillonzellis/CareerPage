@@ -220,7 +220,6 @@ svg {
   }
 }
 
-
 .absolute {
   position: absolute;
 }
@@ -312,7 +311,7 @@ p {
   text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: var(--clr-neutral--100);
   color: var(--clr-primary-400);
   border: 2px solid var(--clr-primary-400);
@@ -347,7 +346,6 @@ p {
     background-size: cover;
   }
 }
-
 
 @media (min-width: 50em) {
   .hero-img > h1 {
@@ -388,8 +386,6 @@ p {
   }
 }
 
-
-
 @media (min-width: 50em) {
   .btns-wrapper {
     display: flex;
@@ -428,6 +424,11 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 /* Benefits  */
@@ -476,7 +477,7 @@ p {
   }
 }
 
-.accordion .img-de{
+.accordion .img-de {
   width: 100%;
 }
 
@@ -537,7 +538,7 @@ details p {
 
 /* Accordion Animate */
 details[open] summary ~ * {
-  animation: sweep .5s;
+  animation: sweep 0.5s;
 }
 
 /* details[open] summary ~ * {
@@ -545,8 +546,12 @@ details[open] summary ~ * {
 } */
 
 @keyframes sweep {
-  0%    {opacity: 0;}
-  100%  {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /* @keyframes sweep {
   0%    {opacity: 0; margin-left: -10px}
@@ -628,10 +633,25 @@ details[open] summary ~ * {
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+
+  -webkit-transition: -webkit-transform 0.6s;
+  -moz-transition: transform 0.6s ;
+  -o-transition: transform 0.6s;
+  transition: transform 0.6s ;
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -656,24 +676,49 @@ details[open] summary ~ * {
   top: -15px;
   left: 50%;
   transform: translate(-50%);
+
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
 }
 
 .flip-card-back {
   background-color: var(--clr-primary-400);
   color: var(--clr-neutral--100);
-  transform: rotateY(180deg);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 1.25rem;
+  transform: rotateY(180deg);
+
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
-
 details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
+  animation: sweep 0.5s ease-in-out;
 }
 
 @keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
 }
+
+/* Safari Bugfix */
+
+/* @supports (-webkit-touch-callout: none) {
+
+  .flip-card-front:hover  {
+    display: none !important;
+  }
+
+} */
