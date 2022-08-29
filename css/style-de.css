@@ -569,13 +569,19 @@ details[open] summary ~ * {
     padding: 0 50px;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1em;
     margin-bottom: 1rem;
   }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 1200px) {
+  .testimonials-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
   .testimonials-wrapper::before {
     content: "";
     position: absolute;
@@ -602,7 +608,7 @@ details[open] summary ~ * {
   background-color: transparent;
   height: 325px;
   perspective: 1000px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   position: relative;
 }
 
@@ -645,7 +651,7 @@ details[open] summary ~ * {
   transition: transform 0.6s;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 50em) {
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 
@@ -708,6 +714,25 @@ details[open] summary ~ * {
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+}
+
+
+
+.flip-card-back-mobile {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral--100);
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+
+  box-shadow: 0 0 0 100vmax var(--clr-primary-400);
+  clip-path: inset(0 -100vmax);
+}
+
+@media (min-width: 50em) {
+  .flip-card-back-mobile {
+    display: none;
+  }
 }
 
 details[open] summary ~ * {
