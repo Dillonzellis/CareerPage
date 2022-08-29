@@ -640,19 +640,23 @@ details[open] summary ~ * {
   -o-transform-style: preserve-3d;
 
   -webkit-transition: -webkit-transform 0.6s;
-  -moz-transition: transform 0.6s ;
+  -moz-transition: transform 0.6s;
   -o-transition: transform 0.6s;
-  transition: transform 0.6s ;
+  transition: transform 0.6s;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
 
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
+@media(min-width:600px){
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
 }
+
 
 .flip-card-front,
 .flip-card-back {
@@ -661,6 +665,13 @@ details[open] summary ~ * {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .flip-card-front {
@@ -669,6 +680,9 @@ details[open] summary ~ * {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .flip-card-front > img {
@@ -696,6 +710,7 @@ details[open] summary ~ * {
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+
 }
 
 details[open] summary ~ * {

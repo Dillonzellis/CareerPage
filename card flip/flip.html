@@ -24,8 +24,16 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       }
 
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
+      @media (max-width: 999px) {
+        .flip-card-inner:hover > .flip-card-front {
+          display: none;
+        }
+      }
+
+      @media (min-width: 1000px) {
+        .flip-card:hover .flip-card-inner {
+          transform: rotateY(180deg);
+        }
       }
 
       .flip-card-front,
@@ -35,17 +43,58 @@
         height: 100%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
+
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .front,
+      .back {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        position: absolute;
+        top: 0;
+        left: 0;
       }
 
       .flip-card-front {
         background-color: #bbb;
         color: black;
+
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
       }
 
       .flip-card-back {
         background-color: #2980b9;
         color: white;
         transform: rotateY(180deg);
+
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+
+      .front {
+        z-index: 2;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+
+      /* back, initially hidden pane */
+      .back {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
       }
     </style>
   </head>
