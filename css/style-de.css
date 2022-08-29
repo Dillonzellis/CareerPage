@@ -1,4 +1,4 @@
-/* Dreamweaver Boostrap Fixes */
+/* Dreamweaver Bootstrap Fixes */
 
 .container {
   font-size: 14px;
@@ -645,18 +645,16 @@ details[open] summary ~ * {
   transition: transform 0.6s;
 }
 
-
-@media(min-width:600px){
+@media (min-width: 600px) {
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  
+
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
   }
 }
-
 
 .flip-card-front,
 .flip-card-back {
@@ -710,7 +708,6 @@ details[open] summary ~ * {
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
-
 }
 
 details[open] summary ~ * {
